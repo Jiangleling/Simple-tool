@@ -132,7 +132,8 @@ try {
 }
 
 Write-Host "---"
-Write-Host "全部配置完成！这应该是最终的成功版本了。" -ForegroundColor Green
+Write-Host "全部配置完成！" -ForegroundColor Green
 Write-Host "现在，当您连接USB网络时，功能就会触发。"
 Write-Host "日志文件位于: $installPath\log.txt"
+
 Read-Host "请按 Enter 键退出窗口。"
